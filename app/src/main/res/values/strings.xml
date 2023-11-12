@@ -6,4 +6,7 @@
     <string name="homeText">Boas vindas a Home!</string>
     <string name="homeButtonLabel">Adicionar nome</string>
     <string name="homeEditTextView">Adicione um nome na lista</string>
+    <string name="so">S.O</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
 </resources>

@@ -13,16 +13,22 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/homeText"
-        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/homeText" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/NameRecievedText"
             android:layout_width="match_parent"
-            android:layout_height="73dp"
+            android:layout_height="51dp"
             android:textSize="26dp" />
 
         <LinearLayout
@@ -31,10 +37,34 @@
             android:orientation="vertical"
         >
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <Button
+                    android:id="@+id/btLight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/light" />
+
+                <Button
+                    android:id="@+id/btDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dark" />
+
+                <Button
+                    android:id="@+id/btSO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/so" />
+            </LinearLayout>
+
             <EditText
                 android:id="@+id/homeEditTextView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="70dp"
                 android:hint="@string/homeEditTextView" />
 
             <Button
@@ -56,5 +86,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
         </LinearLayout>
+
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
