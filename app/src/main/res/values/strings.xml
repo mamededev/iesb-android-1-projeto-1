@@ -4,4 +4,6 @@
     <string name="firstScreenButtonLabel">Clique aqui para entrar</string>
     <string name="hint_name">Digite seu nome de usuário aqui!</string>
     <string name="homeText">Boas vindas a Home!</string>
+    <string name="homeButtonLabel">Adicionar nome</string>
+    <string name="homeEditTextView">Adicione um nome na lista</string>
 </resources>
