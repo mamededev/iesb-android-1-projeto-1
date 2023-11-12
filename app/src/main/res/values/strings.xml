@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IESBProjeto1</string>
+    <string name="welcome">Boas vindas ao projeto!</string>
+    <string name="firstScreenButtonLabel">Clique aqui para entrar</string>
+    <string name="hint_name">Digite seu nome de usuário aqui!</string>
+    <string name="homeText">Boas vindas a Home!</string>
+</resources>
